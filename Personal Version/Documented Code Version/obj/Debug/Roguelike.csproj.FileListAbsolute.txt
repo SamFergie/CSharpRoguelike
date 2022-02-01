@@ -1,0 +1,39 @@
+E:\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\bitmapfile.png
+E:\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\Encounters.txt
+E:\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\Personal Version.exe.config
+E:\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\Personal Version.exe
+E:\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\Personal Version.pdb
+E:\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\OpenTK.dll
+E:\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\RLNET.dll
+E:\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\RogueSharp.dll
+E:\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\OpenTK.xml
+E:\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\OpenTK.dll.config
+E:\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\RogueSharp.xml
+E:\Roguelike Personal Version\Personal Version\Documented Code Version\obj\Debug\Roguelike.csprojAssemblyReference.cache
+E:\Roguelike Personal Version\Personal Version\Documented Code Version\obj\Debug\Roguelike.csproj.CoreCompileInputs.cache
+E:\Roguelike Personal Version\Personal Version\Documented Code Version\obj\Debug\Roguelike.csproj.CopyComplete
+E:\Roguelike Personal Version\Personal Version\Documented Code Version\obj\Debug\Personal Version.exe
+E:\Roguelike Personal Version\Personal Version\Documented Code Version\obj\Debug\Personal Version.pdb
+E:\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\_Resources\Maps\BasicMap1.txt
+E:\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\_Resources\Images\Title.png
+E:\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\_Resources\Images\Sword Logo.png
+E:\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\_Resources\Images\Shield Logo.png
+C:\Users\Sam\Desktop\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\bitmapfile.png
+C:\Users\Sam\Desktop\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\Encounters.txt
+C:\Users\Sam\Desktop\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\_Resources\Images\Sword Logo.png
+C:\Users\Sam\Desktop\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\_Resources\Images\Shield Logo.png
+C:\Users\Sam\Desktop\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\_Resources\Images\Title.png
+C:\Users\Sam\Desktop\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\_Resources\Maps\BasicMap1.txt
+C:\Users\Sam\Desktop\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\Personal Version.exe.config
+C:\Users\Sam\Desktop\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\Personal Version.exe
+C:\Users\Sam\Desktop\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\Personal Version.pdb
+C:\Users\Sam\Desktop\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\OpenTK.dll
+C:\Users\Sam\Desktop\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\RLNET.dll
+C:\Users\Sam\Desktop\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\RogueSharp.dll
+C:\Users\Sam\Desktop\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\OpenTK.xml
+C:\Users\Sam\Desktop\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\OpenTK.dll.config
+C:\Users\Sam\Desktop\Roguelike Personal Version\Personal Version\Documented Code Version\bin\Debug\RogueSharp.xml
+C:\Users\Sam\Desktop\Roguelike Personal Version\Personal Version\Documented Code Version\obj\Debug\Roguelike.csprojAssemblyReference.cache
+C:\Users\Sam\Desktop\Roguelike Personal Version\Personal Version\Documented Code Version\obj\Debug\Roguelike.csproj.CopyComplete
+C:\Users\Sam\Desktop\Roguelike Personal Version\Personal Version\Documented Code Version\obj\Debug\Personal Version.exe
+C:\Users\Sam\Desktop\Roguelike Personal Version\Personal Version\Documented Code Version\obj\Debug\Personal Version.pdb

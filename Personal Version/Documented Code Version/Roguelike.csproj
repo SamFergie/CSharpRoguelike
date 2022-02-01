@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{07795C40-CF68-4551-AFEA-921F0B78C695}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Roguelike</RootNamespace>
+    <AssemblyName>Personal Version</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Roguelike.Core.Game</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenTK.1.1.1589.5942\lib\NET40\OpenTK.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RLNET, Version=1.0.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RLNET.1.0.6\lib\RLNET.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RogueSharp, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RogueSharp.3.0.0\lib\portable-net40+sl50+win+wpa81+wp80\RogueSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\DungeonMap.cs" />
+    <Compile Include="Core\Entity System\Behaviours\Frenzy.cs" />
+    <Compile Include="Core\Entity System\Behaviours\LifeSteal.cs" />
+    <Compile Include="Core\Entity System\Behaviours\RangedAttackAndMove.cs" />
+    <Compile Include="Core\Entity System\Behaviours\RunAway.cs" />
+    <Compile Include="Core\Entity System\Behaviours\StandardMoveAndAttack.cs" />
+    <Compile Include="Core\Entity System\Behaviours\StandardMoveAndPush.cs" />
+    <Compile Include="Core\Entity System\Behaviours\TeleportAway.cs" />
+    <Compile Include="Core\Entity System\Entity.cs" />
+    <Compile Include="Core\Entity System\Monster.cs" />
+    <Compile Include="Core\Entity System\Monsters\Bosses\Dragon.cs" />
+    <Compile Include="Core\Entity System\Monsters\Bosses\Lich.cs" />
+    <Compile Include="Core\Entity System\Monsters\Bosses\Werewolf.cs" />
+    <Compile Include="Core\Entity System\Monsters\Goblins\Goblin.cs" />
+    <Compile Include="Core\Entity System\Monsters\Goblins\Hobgoblin.cs" />
+    <Compile Include="Core\Entity System\Monsters\Kobolds\Kobold.cs" />
+    <Compile Include="Core\Entity System\Monsters\Kobolds\KoboldArcher.cs" />
+    <Compile Include="Core\Entity System\Monsters\Kobolds\WingedKobold.cs" />
+    <Compile Include="Core\Entity System\Player.cs" />
+    <Compile Include="Core\Game.cs" />
+    <Compile Include="Core\Inventory\Equipment.cs" />
+    <Compile Include="Core\Inventory\EquipmentTypes\GloveEquipment.cs" />
+    <Compile Include="Core\Inventory\EquipmentTypes\LegEquipment.cs" />
+    <Compile Include="Core\Inventory\EquipmentTypes\RangedEquipment.cs" />
+    <Compile Include="Core\Inventory\EquipmentTypes\RingEquipment.cs" />
+    <Compile Include="Core\Inventory\EquipmentTypes\BootEquipment.cs" />
+    <Compile Include="Core\Inventory\EquipmentTypes\ChestEquipment.cs" />
+    <Compile Include="Core\Inventory\EquipmentTypes\HelmEquipment.cs" />
+    <Compile Include="Core\Inventory\EquipmentTypes\MeleeEquipment.cs" />
+    <Compile Include="Core\Inventory\Item.cs" />
+    <Compile Include="Core\Inventory\Items\HealthPotion.cs" />
+    <Compile Include="Core\Inventory\Items\Key.cs" />
+    <Compile Include="Core\Inventory\EquipmentTypes\WeaponEquipment.cs" />
+    <Compile Include="Core\Inventory\Items\ScrollOfFireball.cs" />
+    <Compile Include="Generation\Cave\CaveSystemGenerator.cs" />
+    <Compile Include="Generation\Dungeon\Corridor.cs" />
+    <Compile Include="Generation\Dungeon\Door.cs" />
+    <Compile Include="Generation\Dungeon\DungeonGenerator.cs" />
+    <Compile Include="Generation\Dungeon\Encounter.cs" />
+    <Compile Include="Generation\Dungeon\Room.cs" />
+    <Compile Include="Generation\Dungeon\Stairs.cs" />
+    <Compile Include="Generation\EquipmentGenerator.cs" />
+    <Compile Include="Generation\Custom Maps\MapGenerator.cs" />
+    <Compile Include="Interfaces\IBehaviour.cs" />
+    <Compile Include="Interfaces\IDrawable.cs" />
+    <Compile Include="Interfaces\IEntity.cs" />
+    <Compile Include="Interfaces\ISchedulable.cs" />
+    <Compile Include="Core\Inventory\Treasure.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Systems\CommandSystem.cs" />
+    <Compile Include="Systems\DiceSystem.cs" />
+    <Compile Include="Systems\EncounterSystem.cs" />
+    <Compile Include="Systems\InventorySystem.cs" />
+    <Compile Include="Systems\MessageLog.cs" />
+    <Compile Include="Systems\PathfindingSystem.cs" />
+    <Compile Include="Systems\SchedulingSystem.cs" />
+    <Compile Include="Utilities\Direction.cs" />
+    <Compile Include="Utilities\DungeonColours.cs" />
+    <Compile Include="Utilities\ImageParser.cs" />
+    <Compile Include="Utilities\Palette.cs" />
+    <Compile Include="Utilities\Variety.cs" />
+    <Compile Include="Utilities\ViewType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bitmapfile.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Encounters.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_Resources\Images\Sword Logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_Resources\Images\Shield Logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_Resources\Images\Title.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_Resources\Maps\BasicMap1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

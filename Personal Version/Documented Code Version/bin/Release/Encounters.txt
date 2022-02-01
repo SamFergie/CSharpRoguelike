@@ -1,0 +1,11 @@
+﻿2Ko - E
+Ak/Ko - E
+2Go - E
+2Ak - M
+Ko/Wk - M
+3Go - H
+2Wk - H
+4Go - H
+2Ak/Ko - H
+2Ko/Wk - D
+2Ak/Wk - D
